@@ -1,18 +1,25 @@
-import logo from 'l'
+import './Nav.css';
+import logo from './images/logo.jpg'
+
 
 function Nav() {
   return (
     <div className="Nav">
-        <img src={logo} className="Nav-logo" alt="logo" />
-        <div className='NavLinks'>
-            <a>Home</a>
-            <a>About</a>
-            <a>Gallery</a>
-        </div>
-        <div className='NavSearch'>
-            <input> search bar</input>
-        </div>
-      
+      <div className='Nav-logo'>
+      <img src={logo}></img>
+      </div>
+     
+    
+      <div className='NavLinks'>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+      </div>
+      <div className='NavSearch'>
+        <input type="text" placeholder="Search..." />
+      </div>
     </div>
   );
 }
+
+export default Nav;
