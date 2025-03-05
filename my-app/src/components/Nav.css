@@ -1,0 +1,28 @@
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffddcc;
+  }
+  
+  .Nav-logo img {
+    height: 60px;
+    border-radius: 5px;
+    width: 50px;
+  }
+ 
+  .NavLinks a {
+    margin: 0 10px;
+    padding-right: 50px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .NavSearch input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
