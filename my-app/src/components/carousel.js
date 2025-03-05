@@ -3,10 +3,21 @@ import { motion } from 'framer-motion';
 import './carousel.css';
 
 // Import images
-import image1 from './images/logo.jpg';
+import image1 from './images/img1.png';
+import image2 from './images/img2.png';
+import image3 from './images/img3.png';
+import image4 from './images/img4.png';
+import image5 from './images/img5.png';
+import image6 from './images/img6.png';
+import image7 from './images/img7.png';
+import image8 from './images/img8.png';
+import image9 from './images/img9.png';
+import image10 from './images/img10.png';
+import image11 from './images/img11.png';
+
 
 console.log("Heloooooooooooooooooooooo----------------------");
-const images = [image1, image1, image1];
+const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11];
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
